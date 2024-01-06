@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "exoticbutters:item/basket_of_exotic_butters"
+  }
+}

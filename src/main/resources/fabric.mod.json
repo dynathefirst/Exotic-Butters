@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "exoticbutters",
+	"version": "${version}",
+	"name": "Exotic Butters",
+	"description": "Adds Exotic Butter, a basket, and also a Basket of Exotic Butters.",
+	"authors": [
+		"Dyna/epiccool"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/exoticbutters/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dyna.exoticbutters.ExoticButters"
+		],
+		"client": [
+			"net.dyna.exoticbutters.ExoticButtersClient"
+		]
+	},
+	"mixins": [
+		"exoticbutters.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
